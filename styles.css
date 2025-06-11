@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif, Arial, sans-serif;
+    background: #f4f8fb;
+   
+}
+
+form {
+    background: #fff;
+    max-width: 400px;
+    margin: 40px auto 0 auto;
+    padding: 32px 24px 24px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+h1 {
+    text-align: center;
+    color: #2a5d84;
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: 500;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 18px;
+    border: 1px solid #bcd0e5;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.targetBMI {
+    background: #f0f4fa;
+    padding: 12px 10px;
+    border-radius: 6px;
+    margin-bottom: 18px;
+}
+
+.targetBMI span {
+    font-size: 1rem;
+    color: #2a5d84;
+    font-weight: 500;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+#submission {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background: #2a5d84;
+    color: #fff;
+    border: none;
+    padding: 10px 32px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+input[type="submit"]:hover {
+    background: #17405e;
+}
+
+#bmi-result {
+    max-width: 400px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    background: #eaf6ed;
+    color: #217a3b;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(34,139,34,0.06);
+    min-height: 24px;
+}

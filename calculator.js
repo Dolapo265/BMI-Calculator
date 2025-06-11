@@ -15,6 +15,10 @@ function receiveValues(event){
         resultDiv.innerHTML = 'please enter valid positive numbers'
     } else {
         let bmi = calcBmi(weight,height)
+        let message = ''
+        if (bmi<18.5){
+            message = '(Underweight)'
+        } else if ()
         resultDiv.innerHTML = `your BMI is: ${bmi.toFixed(2)}`
     }
 
