@@ -46,3 +46,4 @@ function receiveValues(event){
 }
 document.querySelector('form').addEventListener('submit', receiveValues)
     
+hello = 'world'
